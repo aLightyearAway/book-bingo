@@ -11,7 +11,7 @@ public class UserController {
 
   @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
   public User getUsers() {
-    User user = new User("aLightYearAway", "brown", 31, 179);
+    User user = new User("aLightYearAway", "blonde", 35, 186);
     return user;
   }
 }
